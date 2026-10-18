@@ -2,6 +2,8 @@
 
 [English](README.md) | **日本語**
 
+**「ミュートのつもりなのに、声が届いていないか不安」(声貫通)をなくすためのボイスです。**
+
 **[pma-voice](https://github.com/AvarianKnight/pma-voice)**（MIT）をベースにした、FiveM用の独立ボイスリソースです。
 pma-voiceのエンジン・exports・イベント・ステートバッグはそのまま使えて、「あったらいいのに」を足してあります。
 

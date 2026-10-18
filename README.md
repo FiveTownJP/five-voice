@@ -2,6 +2,8 @@
 
 **English** | [日本語](README.ja.md)
 
+**Never wonder "is my voice leaking?" again.** (In Japanese FiveM communities this is called 声貫通, "voice bleed-through": you think you are muted, but nearby players, the radio or your phone call can still hear you.)
+
 A drop-in, standalone voice resource for FiveM built on top of **[pma-voice](https://github.com/AvarianKnight/pma-voice)** (MIT).
 It keeps pma-voice's engine, exports, events and state bags, and adds the things servers keep asking for:
 
