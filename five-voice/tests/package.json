@@ -1,0 +1,11 @@
+{
+ "name": "five-voice-tests",
+ "private": true,
+ "scripts": {
+  "test": "node --test core.test.cjs lipsync.test.cjs mute.test.cjs"
+ },
+ "devDependencies": {
+  "fengari": "0.1.5",
+  "luaparse": "0.3.1"
+ }
+}

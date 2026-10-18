@@ -1,0 +1,62 @@
+html,body { margin:0; width:100%; height:100%; overflow:hidden; background:transparent!important; color-scheme:normal; }
+[hidden] { display:none!important; }
+#voice-root { position:absolute; left:calc(100% + 10px); bottom:38px; width:max-content; display:flex; flex-direction:column; align-items:flex-start; gap:8px; color:#ddd4ef; font:600 12px sans-serif; pointer-events:none; }
+#voice-panel { display:flex; gap:12px; border:1px solid #8a4fff88; padding:7px 12px; border-radius:8px; background:rgba(23,15,36,.75); }
+#voice-root.talking #voice-panel { border-color:#b68aff; color:#fff; }
+#voice-root.radio-talking #voice-panel { color:#cbaeff; }
+#full-mute { display:flex; align-items:center; gap:8px; color:#ff5353; }
+#full-mute img { width:68px; height:68px; }
+#full-mute span { background:rgba(23,15,36,.75); padding:8px 10px; border-radius:6px; }
+#full-mute small { display:block; margin-top:3px; font-size:10px; color:#e5d6e5; }
+/* Anchor frame that follows the minimap (bottom-left). The HUD sits just to the right of it.
+   Adjust left/bottom here if your minimap or HUD layout is different. */
+.map-anchor {
+	position: absolute;
+	bottom: 7.9%;
+	left: 1.3%;
+	width: 0%;
+}
+
+.map-frame { box-sizing:border-box;
+	position: absolute;
+	bottom: 6.30%;
+	width: 29vh;
+	height: 18.5vh;
+	border: 4px solid transparent;
+}
+
+@media (min-width: 800px) {
+	.map-frame { box-sizing:border-box; left: 2.5vh; bottom: 6%; }
+}
+
+@media (width: 3840px) and (height: 2160px) {
+	.map-frame { box-sizing:border-box; left: 2.4vh; bottom: 6.1%; width: 29.3vh; }
+}
+
+@media (width: 3440px) and (height: 1440px) {
+	.map-frame { box-sizing:border-box; left: 2.3vh; bottom: 6.1%; width: 29.3vh; }
+}
+
+@media (width: 2560px) and (height: 1440px) {
+	.map-frame { box-sizing:border-box; left: 0.2vw; bottom: -1.8vh; }
+}
+
+@media (width: 2560px) and (height: 1080px) {
+	.map-frame { box-sizing:border-box; left: -0.25vw; bottom: -1.8vh; }
+}
+
+@media (width: 1920px) and (height: 1440px) {
+	.map-frame { box-sizing:border-box; left: 0vw; bottom: -1.9vh; }
+}
+
+@media (width: 1920px) and (height: 1200px) {
+	.map-frame { box-sizing:border-box; left: 0.1vw; bottom: -2vh; }
+}
+
+@media (width: 1920px) and (height: 1080px) {
+	.map-frame { box-sizing:border-box; left: 0.1vw; bottom: -2vh; }
+}
+
+@media (width: 1280px) and (height: 720px) {
+	.map-frame { box-sizing:border-box; left: 0.1vw; bottom: -2vh; }
+}
